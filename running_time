@@ -1,0 +1,16 @@
+# Please note that The time is for reference only, not the optimal time for every testcase. Out perform 
+# this baseline doesn't gurantee the full mark in efficiency part and this testcase is mainly for the 
+# correctness testing. 
+# We get all these running time by a RDD solution with Spark default setting as claimed in document. A well 
+# optimized Dataframe solution will be more efficient.
+
+testcase1 1000
+testcase2 5000
+
+# mac intel 
+testcase1 31.65s user 2.23s system 144% cpu 23.369 total
+testcase2 32.10s user 2.51s system 29% cpu 1:57.84 total
+
+# ed
+testcase1 0m7.519s
+testcase2 0m38.616s
